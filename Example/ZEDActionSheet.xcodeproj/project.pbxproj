@@ -41,7 +41,7 @@
 		2E6F402173FB954268CC4A0D /* Pods-ZEDActionSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEDActionSheet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZEDActionSheet_Example/Pods-ZEDActionSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3C59753CC316686A5DED42CB /* Pods_ZEDActionSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZEDActionSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		531889AFE8E25693C39D1ECC /* Pods-ZEDActionSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEDActionSheet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZEDActionSheet_Tests/Pods-ZEDActionSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C25E168A4599BCE966F8A1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C25E168A4599BCE966F8A1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZEDActionSheet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEDActionSheet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		717D8329EF8669AAC6A6365F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		717D8329EF8669AAC6A6365F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7957F108676C370EE281542E /* Pods-ZEDActionSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZEDActionSheet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZEDActionSheet_Tests/Pods-ZEDActionSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C51EE87433A76054C7BBB825 /* ZEDActionSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZEDActionSheet.podspec; path = ../ZEDActionSheet.podspec; sourceTree = "<group>"; };
+		C51EE87433A76054C7BBB825 /* ZEDActionSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZEDActionSheet.podspec; path = ../ZEDActionSheet.podspec; sourceTree = "<group>"; };
 		FBC9354658BD13A4ECC987ED /* Pods_ZEDActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZEDActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "李超";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = AD4B7EHFQ5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = 2E6F402173FB954268CC4A0D /* Pods-ZEDActionSheet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AD4B7EHFQ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZEDActionSheet/ZEDActionSheet-Prefix.pch";
 				INFOPLIST_FILE = "ZEDActionSheet/ZEDActionSheet-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 1831A9AB77ADC13A6FB5FD9F /* Pods-ZEDActionSheet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AD4B7EHFQ5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZEDActionSheet/ZEDActionSheet-Prefix.pch";
 				INFOPLIST_FILE = "ZEDActionSheet/ZEDActionSheet-Info.plist";

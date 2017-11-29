@@ -1,0 +1,22 @@
+{
+  "name": "ZEDActionSheet",
+  "version": "0.1.0",
+  "summary": "ZEDActionSheet.",
+  "description": "A short description of ZEDActionSheet.\nTODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lichao1992/ZEDActionSheet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "李超": "964139523@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lichao1992/ZEDActionSheet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZEDActionSheet/Classes/**/*"
+}

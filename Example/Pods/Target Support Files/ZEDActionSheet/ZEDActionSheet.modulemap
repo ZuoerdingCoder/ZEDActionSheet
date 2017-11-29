@@ -1,0 +1,6 @@
+framework module ZEDActionSheet {
+  umbrella header "ZEDActionSheet-umbrella.h"
+
+  export *
+  module * { export * }
+}
